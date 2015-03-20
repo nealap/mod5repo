@@ -1,0 +1,17 @@
+section.section1 {overflow: scroll; position: absolute; height: 75%; width: 100%; visibility: hidden;}
+section.section2 {overflow: scroll; position: absolute; height: 75%; width: 100%; visibility: hidden;}
+section.section3 {overflow: scroll; position: absolute; height: 75%; width: 100%; visibility: hidden;}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #FFFF99;
+    color: black;
+}
+
+td {
+    text-align: center;
+}

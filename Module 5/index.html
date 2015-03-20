@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Module 5 Assignment</title>
+    <link rel="stylesheet" type="text/css" href="styles/Assignment5.css" />
+    <script src="js/Assignment5.js"></script>
+</head>
+
+<body>
+<section id="title">
+    <h1>Module 5 Assignment</h1>
+    <select onchange="MenuChoice()" id="menu">
+        <option>Please select an option.</option>
+        <option>Customer List</option>
+        <option>Customer Order History</option>
+        <option>List of Customer Orders</option>
+    </select>
+</section>
+
+<section id="section1" class="section1">
+    <h2>Customer List</h2>
+    <button onclick="GetOrders()">Display Customer List</button>
+    <br>
+        <br>
+    <p id="cuslist"></p>
+</section>
+
+<section id="section2" class="section2">
+    <h2>Customer Order History</h2>
+    <h3>Enter Customer ID Below.</h3>
+    <input type="text" id="custhisid">
+    <button onclick="CustHist()" id="CustOrders">Display Customer Order History</button>
+    <br>
+        <br>
+    <label id="cushist"></label>
+</section>
+
+<section id="section3" class="section3">
+    <h2>List of Customer Orders</h2>
+    <h3>Enter Customer ID Below.</h3>
+    <input type="text" id="ordid">
+    <button onclick="CustLisID()" id="CustOrders">List Customer Orders</button>
+    <br>
+        <br>
+    <label id="cuslis"></label>
+</section>
+
+
+</body>
+</html>
